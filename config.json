@@ -1,0 +1,9 @@
+{
+   groupId: "eng.visual",
+   packageId: "eng.visual.iFrame",
+   visualName: "iFrame",
+   displayName: "iFrame",
+   version : "1.0.0",
+   scripts : ["iFrame.js"],
+   styles : ["iFrame.css"],
+}
