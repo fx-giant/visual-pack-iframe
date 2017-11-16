@@ -1,9 +1,18 @@
 {
-   groupId: "eng.visual",
-   packageId: "eng.visual.iFrame",
-   visualName: "iFrame",
-   displayName: "iFrame",
-   version : "1.0.0",
-   scripts : ["iFrame.js"],
-   styles : ["iFrame.css"],
+    "visualName": "iFrame",
+    "displayName": "iFrame",
+    "groupId": "visual.sandbox.iFrame",
+    "packageId": "sample",
+    "author": "Hans Yulian",
+    "version": "1.0.0",
+    "scripts": [
+        "iFrame.js"
+    ],
+    "styles": [
+        "iFrame.css"
+    ],
+    "canConfigure3D": false,
+    "canConfigureLegend": false,
+    "canConfigureAnimation": false,
+    "canConfigureColor": false
 }

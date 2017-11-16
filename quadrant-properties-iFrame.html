@@ -1,56 +1,14 @@
 <div class="quadrant-properties">
     <div class="quadrant-properties__databind">
-        <div class="quadrant-properties__title" data-bind="textMessage: 'qpDataBinding'"></div>
 
-        <quadrant-control params="controlType: 'connectionSource',
-                                quadrantViewModel: quadrantViewModel">
-        </quadrant-control>
-
-        <quadrant-control params="controlType: 'topBottom',
-                                      quadrantComposer: quadrantComposer">
-        </quadrant-control>
-
-        <quadrant-control params="controlType: 'singleConnectionSourceBinding',
-                                    labelKey: 'qpValuePath',
-                                    addLabelKey: 'qpAddValuePath',
-                                    bindingType: 'measurement',
-                                    configurations: quadrantViewModel.configurations,
-                                    connectionSources: quadrantViewModel.connectionSources,
-                                    selectedBindingContext: valuePathBindingContext,
-                                    addBinding : addValuePath,
-                                    deleteBinding: deleteValuePath,
-                                    updateBinding: updateValuePath">
-        </quadrant-control>
-
-        <quadrant-control params="controlType: 'singleConnectionSourceBinding',
-                                    labelKey: 'qpTargetPath',
-                                    addLabelKey: 'qpAddTargetPath',
-                                    bindingType: 'measurement',
-                                    configurations: quadrantViewModel.configurations,
-                                    connectionSources: quadrantViewModel.connectionSources,
-                                    selectedBindingContext: targetPathBindingContext,
-                                    addBinding : addTargetPath,
-                                    deleteBinding: deleteTargetPath,
-                                    updateBinding: updateTargetPath">
-        </quadrant-control>
-
-
-        <hr class="quadrant-properties__seperator"/>
-        <quadrant-control params="controlType: 'sorting',
-                                      quadrantComposer: quadrantComposer,
-                                      selectedConnectionSource : selectedConnectionSource">
-        </quadrant-control>
-
-        <hr class="quadrant-properties__seperator"/>
-        <quadrant-control params="controlType: 'multiCondition',
-                                    quadrantComposer: quadrantComposer,
-                                    selectedConnectionSource : selectedConnectionSource">
-        </quadrant-control>
-
-        <hr class="quadrant-properties__seperator"/>
-        <quadrant-control params="controlType: 'filterSubscriber',
-                                      quadrant: quadrant">
-        </quadrant-control>
+        <div class="sandbox__row">
+            <div class="sandbox__label">URL</div>
+            <div class="text-box text-box--white">
+                <div class="text-box__input">
+                    <input type="text" data-bind="value: url">
+                </div>
+            </div>
+        </div>
 
     </div>
 </div>
