@@ -1,3 +1,10 @@
-# Visual Pack - IFrame
+# GIANT iFrame
+This is an iFrame visual pack to render other website inside GIANT
 
-Allow user to embed url within the widget.
+## Prerequisites
+- GIANT Account
+- Visual pack to be applied
+
+## How To Use
+- Upload visual pack
+- Use it just like normal quadrant
